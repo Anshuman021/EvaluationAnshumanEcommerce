@@ -1,0 +1,44 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(121, 128, 103);
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px dotted rgb(125, 168, 130);
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(208, 91, 91);
+  }
+  
+
+
+  /* Footer Design */
+  footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgb(92, 100, 72);
+  }
+
+  footer .right.box{
+    color: rgb(228, 228, 243);
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  footer .bottom{
+    width: 100%;
+    text-align: center;
+    color: #d0d0f4;
+    padding: 0 40px 5px 0;
+  }
+  

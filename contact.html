@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/backgroundContactImg.jpg');
+  background-size: cover;
+}
+
+div #row1,#row2,#row3,#row4,#row5 {
+  line-height: 30px;
+  width: 300px;
+  height: 60px;
+}
+
+div #row5 {
+  width: 200px;
+  position: relative;
+  top: 70px;
+  color: aqua;
+}
+
+.form-rows {
+ color: rgb(41, 41, 74);
+ border: 2px solid;
+ height: 300px;
+ display: inline-block;
+}
+
+</style>
+<link rel="stylesheet" href="css/index.css">
+
+<!-- Beaken code sfmc -->
+<script type="text/javascript" src="//cdn.evgnet.com/beacon/atcsmcp/anshuman_evaluation/scripts/evergage.min.js"></script>
+</head>
+<body>
+<!-- Header -->
+<div class="topnav"> 
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="categories.html">Categories</a>
+  <a href="index.html">Home</a>
+</div>
+<center>
+<h3>Please send your query to us ...</h3>
+<div>
+    <form name="sentMessage" id="contactForm" novalidate="novalidate" style="margin-top: 100px;">
+      <div class="form-rows">
+        <div id="row1">
+            <input type="text" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name">
+        </div>
+        <div id="row2">
+            <input type="email" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email">
+        </div>
+        <div id="row3">
+            <input type="text" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject">
+        </div>
+        <div id="row4">
+            <textarea rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+        </div>
+        <div id="row5">
+            <button type="submit" id="sendMessageButton">Send Message</button>
+        </div>
+      </div>
+      </form>
+</div>
+</center>
+
+
+<!-- Footer -->
+
+<footer>
+  <div class="bottom">
+    <p>Website Created By Anshuman</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
