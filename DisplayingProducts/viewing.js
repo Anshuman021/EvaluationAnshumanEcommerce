@@ -127,9 +127,9 @@ function cat_3_prod_2(){
 // catergory 3
 // For product 3 
 function cat_3_prod_3(){
-    const Watch3Name = document.getElementById('watch1-name').innerText;
-    const Watch3Price = document.getElementById('watch1-price').innerText;
-    const Watch3ImgUrl = document.getElementById('watch1-ImgUrl').src;
+    const Watch3Name = document.getElementById('watch3-name').innerText;
+    const Watch3Price = document.getElementById('watch3-price').innerText;
+    const Watch3ImgUrl = document.getElementById('watch3-ImgUrl').src;
 
     localStorage.setItem("prod-name",Watch3Name);
     localStorage.setItem("prod-price",Watch3Price);
